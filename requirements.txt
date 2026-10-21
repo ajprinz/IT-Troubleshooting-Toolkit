@@ -1,0 +1,4 @@
+psutil
+pandas
+dnspython
+speedtest-cli
