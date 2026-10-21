@@ -1,6 +1,6 @@
-# Windows IT Troubleshooting Toolkit
+# IT Troubleshooting Toolkit (Windows)
 
-A command-line toolkit that gathers basic Windows system and network diagnostics. This project is intended as a learning project and a demonstration of entry-level IT troubleshooting and Python skills.
+A Python-based diagnostic toolkit for Windows designed to explore system monitoring, network troubleshooting, DNS resolution, and internet connectivity testing. A command-line toolkit that gathers basic Windows system and network diagnostics. This project is intended as a learning project and a demonstration of entry-level IT troubleshooting and Python skills.
 
 ## Features
 
@@ -58,12 +58,13 @@ The output can include the computer name, MAC address, local network addresses, 
 
 The toolkit performs DNS lookups and network tests, including a speed test with an external service. Some process or connection details may not be available unless the terminal is run with elevated permissions. The script currently targets the Windows `C:\` system drive.
 
-## Skills demonstrated
+## Learning objectives
 
-- Python standard-library modules for platform, socket, and disk information
-- Third-party package usage with `psutil`, `pandas`, `dnspython`, and `speedtest-cli`
-- Basic network connectivity and DNS troubleshooting
-- Collecting and presenting diagnostic information in the terminal
+- Explore Windows system information and resource monitoring.
+- Investigate network interfaces and listening ports.
+- Understand DNS record types and resolver behavior.
+- Measure network connectivity and performance.
+- Develop troubleshooting and technical documentation skills.
 
 ## Current limitations
 
@@ -71,3 +72,9 @@ The toolkit performs DNS lookups and network tests, including a speed test with 
 - It is designed for Windows and assumes the system drive is `C:\`.
 - Some system calls can depend on local permissions and network configuration.
 - The speed test depends on the external speed-test service and a working internet connection.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You may use, modify,
+distribute, and sell copies, including for commercial purposes, provided you
+retain the copyright and license notice. The software is provided without warranty.

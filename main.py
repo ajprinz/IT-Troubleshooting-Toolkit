@@ -219,7 +219,7 @@ def test_dns_performance(domain, record_types=["A", "AAAA", "MX", "TXT"], custom
 def main():
     # Run diagnostics and print the results.
     print("=" * 80)
-    print("WINDOWS IT TROUBLESHOOTING TOOLKIT")
+    print("IT TROUBLESHOOTING TOOLKIT (Windows)")
     print("by Adam Prinz")
     print(f"Run time: {datetime.now():%Y-%m-%d %H:%M:%S}")
     print("=" * 80)
