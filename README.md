@@ -1,6 +1,6 @@
 # IT Troubleshooting Toolkit (Windows)
 
-A Python-based diagnostic toolkit for Windows designed to explore system monitoring, network troubleshooting, DNS resolution, and internet connectivity testing. A command-line toolkit that gathers basic Windows system and network diagnostics. This project is intended as a learning project and a demonstration of entry-level IT troubleshooting and Python skills.
+A Python-based diagnostic toolkit for Windows designed to explore system monitoring, network troubleshooting, DNS resolution, and internet connectivity testing.
 
 ## Features
 
